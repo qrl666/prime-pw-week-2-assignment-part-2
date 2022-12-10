@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called name with value Dane.
+// Create a conditional that if the value and type of variable name equals 'Mary', then the console will log Hi, Mary!
+// If the value and type of the of the variable equal anything except 'Mary', the console will log How do you do?
+// The console logs 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called secret.
+// Create a variable called code with value of 123. 
+// Create a conditional that if the type and value of variable code equals 123, then the value of variable secret will equal super, and the value of variable code will be multiplied by 2.
+// Create a conditional that if the value of variable code is greater that 250, then the value of variable secret will equal duper.
+// The console logs 'super'
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called isStudent with a boolean value of true.
+// Create a variable called age with a numerical value of 34.
+// Create a variable called zip with a numerical value of 55407
+// Create a conditional that if the value and type of variable isStudent equals true, AND, the valeu of zip is greater than 8000, then the console will log You're a student on the West Coast!
+// Create a second conditionl that if the value and type of variable isStudent equals false OR the value of variable age is less than 30, then the console will log What are your hobbies?
+// Create a third conditional that if the value and type of variable isStudent equals true, then the console will log Welcome to Prime!
+// If all conditionals above are false, then the console will log How about the weather?
 
 //CODE
 /*
