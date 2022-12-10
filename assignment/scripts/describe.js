@@ -134,9 +134,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX variable colorOne should equal blue, and colorTwo should equal red.
+// let colorOne = 'blue'
+// let colorTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX this only resets the value of variable colorOne, we also want to reset the variable of colorTwo
+// if (mix === true) {
+//    colorOne = 'purple';
+//    colorTwo = 'purple';
+// }
 
 if (mix === true) {
   colorOne = 'purple';
@@ -151,6 +162,11 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX this conditional uses the operator || for OR, the prompt is AND, so should use operator &&.
+//if (temp > 39 && time >= 4) {
+//  console.log('throw away the food!');
+//}
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,6 +179,23 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX This conditional checks if minAge is less than or equal to age, when the prompt wants to check if age is greater than or equal to minAge. 
+//We could rewrite the condition operator and switch the executions like this 
+
+//if(age >= minAge) {
+//  console.log('entry');
+//} else {
+//  console.log('no entry');
+//}
+
+//or we could just change the operator to not inclue the equals, which does not execute the prompt literally, but achieves its goal.
+
+//if(minAge < age) {
+//  console.log('no entry');
+//} else {
+//  console.log('enter');
+//}
 
 if(minAge <= age) {
   console.log('no entry');
